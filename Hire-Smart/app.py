@@ -45,6 +45,8 @@ job_roles = {
         "Kubeflow", "Mlflow", "Huggingface", "transformers"
     ],
 
+# Preferred Skills for Python Developer
+    
     "Python Developer": [
         "python", "django", "flask", "fastapi", "sqlalchemy", "numpy", "pandas", "scipy", "matplotlib", "seaborn",
         "plotly", "dash", "openpyxl", "selenium", "beautifulsoup", "scrapy", "tensorflow", "pytorch", "keras",
@@ -52,39 +54,39 @@ job_roles = {
         "MongoDB", "Redis", "docker", "kubernetes", "aws", "azure", "gcp", "Git", "Github", "Gitlab", "CI/CD",
         "jupyter", "colab", "RestfulAPI", "graphQL", "asyncio", "Celery", "RabbitMQ", "Kafka"
     ],
-
+# Preferred Skills for Android Developer
     "Android App Developer": [
         "java", "kotlin", "android sdk", "android studio", "gradle", "xml", "jetpack", "android jetpack", "mvvm",
         "mvp", "retrofit", "dagger", "hilt", "rxjava", "coroutines", "room", "sqlite", "firebase", "google play services",
         "material design", "restful api", "json", "git", "github", "CI/CD", "espresso", "junit", "mockito"
     ],
-
+# Preferred Skills for IOS Developer
     "IOS App Developer": [
         "swift", "objective-c", "xcode", "cocoa touch", "swiftui", "uikit", "core data", "grand central dispatch",
         "combine", "alamofire", "realm", "sqlite", "firebase", "mapkit", "core location", "cloudkit", "restful api",
         "json", "git", "github", "CI/CD", "testflight", "fastlane", "junit", "xctest"
     ],
-
+# Preferred Skills Data Scientist
     "Data Scientist": [
         "python", "r", "machine learning", "deep learning", "neural networks", "numpy", "pandas", "scikit-learn",
         "tensorflow", "pytorch", "keras", "matplotlib", "seaborn", "plotly", "statsmodels", "nltk", "spacy", "opencv",
         "sql", "postgresql", "mysql", "mongodb", "big data", "hadoop", "spark", "databricks", "aws", "azure", "gcp",
         "docker", "jupyter", "colab", "sagemaker", "kubeflow", "mlflow"
     ],
-
+# Preferred Skills for Data Analyst
     "Data Analyst": [
         "python", "r", "sql", "tableau", "power bi", "excel", "numpy", "pandas", "matplotlib", "seaborn", "plotly",
         "statistics", "machine learning", "regression", "clustering", "sql", "postgresql", "mysql", "mongodb",
         "big data", "hadoop", "spark", "databricks", "aws", "azure", "gcp", "ETL", "data warehousing", "data mining"
     ],
-
+# Preferred Skills for Cyber Security Engineer
     "Cyber Security Engineer": [
         "network security", "application security", "cloud security", "firewalls", "ids", "ips", "SIEM", "Vulnerability assessment",
         "Penetration testing", "ethical hacking", "cryptography", "threat modeling", "risk assessment", "compliance",
         "ISO 27001", "NIST", "OWASP", "CEH", "CISSP", "SSL/TLS", "PKI", "IAM", "Azure security", "AWS security", "GCP security",
         "Python", "Bash", "Powershell", "Metasploit", "Nmap", "Wireshark", "Kali Linux"
     ],
-
+# Preferred Skills for Network Engineer
     "Network Engineer": [
         "TCP/IP", "DNS", "DHCP", "VLANs", "Routing", "Switching", "BGP", "OSPF", "EIGRP", "MPLS", "VPN", "Firewall",
         "IDS", "IPS", "Load balancers", "QoS", "Network monitoring", "Wireshark", "Cisco", "Juniper", "Aruba", "Fortinet",
