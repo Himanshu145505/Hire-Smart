@@ -92,58 +92,58 @@ job_roles = {
         "IDS", "IPS", "Load balancers", "QoS", "Network monitoring", "Wireshark", "Cisco", "Juniper", "Aruba", "Fortinet",
         "Python", "Bash", "Powershell", "Ansible", "Terraform", "Cloud networking", "AWS", "Azure", "GCP"
     ],
-
+# Preferred Skills for Mobile Developer
     "Mobile Developer": [
         "java", "kotlin", "swift", "objective-c", "react native", "flutter", "dart", "android sdk", "ios sdk",
         "xcode", "android studio", "material design", "ui/ux design", "restful api", "json", "git", "github",
         "CI/CD", "firebase", "sqlite", "realm", "mvvm", "mvp", "rxjava", "coroutines", "flutter widgets"
     ],
-
+# Preferred Skills for Cloud Engineer
     "Cloud Engineer": [
         "AWS", "Azure", "GCP", "cloud architecture", "cloud security", "virtualization", "Docker", "Kubernetes",
         "Terraform", "Ansible", "CI/CD", "Jenkins", "Git", "Github", "Gitlab", "Linux", "Windows Server",
         "Python", "Bash", "Powershell", "Networking", "Load balancers", "DNS", "IAM", "CloudFormation", "ARM Templates"
     ],
-
+# Preferred Skills for Cloud Architect
     "Cloud Architect": [
         "AWS", "Azure", "GCP", "cloud architecture", "cloud security", "cloud strategy", "virtualization", "Docker",
         "Kubernetes", "Terraform", "Ansible", "CI/CD", "Jenkins", "Git", "Github", "Gitlab", "Linux", "Windows Server",
         "Python", "Bash", "Powershell", "Networking", "Load balancers", "DNS", "IAM", "CloudFormation", "ARM Templates",
         "microservices", "serverless", "cost management", "performance optimization"
     ],
-
+# Preferred Skills for DevOps Engineer
     "DevOps Engineer": [
         "CI/CD", "Jenkins", "Git", "Github", "Gitlab", "Docker", "Kubernetes", "Ansible", "Terraform", "AWS", "Azure",
         "GCP", "Linux", "Windows Server", "Python", "Bash", "Powershell", "Monitoring", "Prometheus", "Grafana",
         "Nagios", "Splunk", "Log management", "Automation", "Infrastructure as Code", "Agile", "Scrum"
     ],
-
+ # Preferred Skills for Product Manager
     "Product Manager": [
         "product lifecycle", "roadmapping", "agile", "scrum", "kanban", "user stories", "backlog management",
         "stakeholder management", "market research", "competitive analysis", "product strategy", "MVP", "A/B testing",
         "user experience", "data analysis", "sql", "excel", "JIRA", "Confluence", "Trello", "Asana", "communication",
         "leadership", "problem solving", "strategic thinking"
     ],
-
+# Preferred Skills for UI / UX Designer
     "UI/UX Designer": [
         "ui design", "ux design", "wireframing", "prototyping", "user research", "user testing", "interaction design",
         "visual design", "adobe xd", "sketch", "figma", "invision", "photoshop", "illustrator", "html", "css",
         "javascript", "responsive design", "accessibility", "design thinking", "information architecture", "user personas",
         "journey mapping", "heuristic evaluation"
     ],
-
+# Preferred Skills for Software Engineer
      "Software Engineer": [
         "programming languages", "algorithms", "data structures", "software development", "debugging", 
         "problem-solving", "object-oriented design", "system design", "coding", "testing", "agile", 
         "scrum", "git", "github", "docker", "linux", "communication skills"
     ],
-
+# Preferred Skills for System Architect
     "Systems Architect": [
         "system architecture", "cloud computing", "networking", "virtualization", "security", 
         "databases", "integration", "performance tuning", "scalability", "reliability", "disaster recovery", 
         "enterprise architecture", "system modeling", "system design", "automation", "problem-solving"
     ],
-
+# Preferred Skills for Database Adminstrator
     "Database Administrator": [
         "database management", "SQL", "NoSQL", "database design", "database security", "database tuning", 
         "data modeling", "backup and recovery", "performance monitoring", "data warehousing", 
