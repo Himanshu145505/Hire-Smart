@@ -1,26 +1,35 @@
+# Important Imports
 import os
 import re  
 import fitz  # PyMuPDF
+
+# Flask Application Import
 from flask import Flask, request, render_template, redirect, url_for
 from difflib import get_close_matches
 
+
+# This will store the uploaded files in a temporary folder name TEMP_FOLDER and Ranks the resume there
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['TEMP_FOLDER'] = os.path.join(os.path.dirname(__file__), 'temp_uploads')
 
 job_roles = {
+
+    # Preferred Skills for Full Stack Developer
     "Full Stack Developer": [
         "html", "css", "javascript", "mongodb", "express", "angular", "react", "node", "PHP", "MySql", "python",
         "databases", "bootstrap", "ruby", ".NET", "Django", "Git", "Github", "GitLabs", "Apache", "RestfulAPI",
         "Docker", "cloud", "kubernetes", "OAuth", "jest", "Typescript", "Webpack", "Babel", "GraphQL", "Redis",
         "CouchDB", "Nginx", "Heroku", "AWS", "GCP", "Azure", "SASS", "LESS"
     ],
-
+# Preferred Skills for Front End Developer
     "Frontend Developer": [
         "html", "css", "javascript", "react", "angular", "vue.js", "jQuery", "bootstrap", "tailwind", "tailwind CSS",
         "restful api", "git", "github", "npm", "yarn", "SASS", "LESS", "Typescript", "Webpack", "Babel", "GraphQL",
         "Redux", "Next.js", "Gatsby", "Ember.js", "Backbone.js", "Handlebars.js", "PWA", "Webpack"
     ],
+
+    # Preferred Skills for BackEnd Developer
 
     "Backend Developer": [
         "node", "express", "mongodb", "mysql", "postgresql", "python", "django", "flask", "ruby on rails", "java",
@@ -28,7 +37,7 @@ job_roles = {
         "Redis", "Docker", "Kubernetes", "Nginx", "AWS", "GCP", "Azure", "Elasticsearch", "RabbitMQ", "Kafka",
         "Jenkins", "CI/CD", "Git", "Github", "Gitlab", "Terraform"
     ],
-
+# Preferred Skills for AI & ML Engineer
     "AI & ML Engineer": [
         "python", "tensorflow", "pytorch", "scikit-learn", "machine learning", "deep learning", "neural networks",
         "numpy", "pandas", "keras", "matplotlib", "seaborn", "opencv", "nlp", "R", "xgboost", "lightgbm", "catboost",
