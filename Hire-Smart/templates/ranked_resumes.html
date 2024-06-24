@@ -116,14 +116,17 @@
         <form method="post" action="/reset_temp_uploads">
             <input type="submit" value="Reset Uploads">
         </form>
-<!--Condition for Displaying  -->
+<!--Condition for Displaying the Searched for Job Role Name Message -->
         {% if job_description %}
             <p>Showing results for: <strong>{{ job_description }}</strong></p>
         {% endif %}
 
+<!--         Table Styling -->
         <table>
+            
             <thead>
                 <tr>
+<!--                     Table Rows -->
                     <th>Rank</th>
                     <th>File</th>
                     <th>CGPA</th>
@@ -133,6 +136,7 @@
                 </tr>
             </thead>
             <tbody>
+<!--                 Fetch and Display -->
                 {% for index, resume in enumerate(resumes) %}
                     <tr>
                         <td>{{ index + 1 }}</td>
