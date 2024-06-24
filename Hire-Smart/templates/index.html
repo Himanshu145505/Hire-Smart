@@ -71,11 +71,11 @@
             cursor: pointer;
             font-size: 16px;
         }
-/*  */
+/*Button Hover Effect  */
         button:hover {
             background-color: #45a049;
         }
-
+/*File Lable Styling  */
         .file-label {
             display: inline-block;
             padding: 10px 20px;
@@ -86,12 +86,12 @@
             font-size: 16px;
             margin-bottom: 20px;
         }
-
         .file-label:hover {
             background-color: #45a049;
         }
     </style>
     <script>
+        // Form Validation for Selecting atleast 1 Pdf File
         function validateForm() {
             var files = document.getElementById("resumes").files;
             if (files.length === 0) {
@@ -100,7 +100,7 @@
             }
             return true;
         }
-
+// Selecting and Selected File Count Function 
         function updateFileLabel() {
             var input = document.getElementById("resumes");
             var label = document.querySelector(".file-label");
@@ -129,6 +129,7 @@
 
 <body>
     <div class="container">
+<!--         Welcome M -->
         <h1>Welcome to HireSmart</h1>
         <p class="slogan">Streamline your hiring process, save time, and find the best candidates effortlessly!</p>
         <form action="/upload" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
