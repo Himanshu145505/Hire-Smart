@@ -101,19 +101,22 @@
 </head>
 <body>
     <div class="container">
-<!--         Welcome -->
+<!--         Welcome Message -->
         <h1>Welcome to HireSmart</h1>
+<!--         Slogan -->
         <p>Streamline your hiring process, save time, and find the best candidates effortlessly!</p>
         <form method="post" action="/ranked_resumes">
+<!--             Enter Job Role  -->
             <label for="job_description">Enter Job Role :</label>
+<!--             Input for Job Role -->
             <input type="text" name="job_description" id="job_description" required>
             <input type="submit" value="Rank">
         </form>
-
+<!--Reset Uploads Option  -->
         <form method="post" action="/reset_temp_uploads">
             <input type="submit" value="Reset Uploads">
         </form>
-
+<!--Condition for Displaying  -->
         {% if job_description %}
             <p>Showing results for: <strong>{{ job_description }}</strong></p>
         {% endif %}
