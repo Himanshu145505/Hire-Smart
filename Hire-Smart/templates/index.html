@@ -129,12 +129,16 @@
 
 <body>
     <div class="container">
-<!--         Welcome M -->
+<!--         Welcome Message -->
         <h1>Welcome to HireSmart</h1>
+<!--         Slogan -->
         <p class="slogan">Streamline your hiring process, save time, and find the best candidates effortlessly!</p>
         <form action="/upload" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+<!--             File Selection Lable -->
             <label for="resumes" class="file-label">Select resumes to upload</label>
+<!--             Total Selected Files -->
             <input type="file" name="resumes" id="resumes" class="file-input" multiple onchange="updateFileLabel()">
+<!--             Proceed button -->
             <button type="submit">Proceed</button>
         </form>
     </div>
