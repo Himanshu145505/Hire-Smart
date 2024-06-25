@@ -179,37 +179,40 @@ job_roles = {
         "data lakes", "SQL", "NoSQL", "Hadoop", "Spark", "Kafka", "stream processing", "Python", 
         "Scala", "Java", "cloud computing", "AWS", "Azure", "GCP"
     ],
-
+# Preferred Skills for Cloud Solutions Architect
     "Cloud Solutions Architect": [
         "cloud computing", "AWS", "Azure", "GCP", "cloud architecture", "serverless computing", "microservices", 
         "containerization", "Kubernetes", "Docker", "security", "networking", "IAM", "cloud migration", 
         "cost optimization", "compliance"
     ],
-
+# Preferred Skills for Security Analyst
     "Information Security Analyst": [
         "information security", "network security", "cybersecurity", "security policies", "vulnerability assessment", 
         "penetration testing", "incident response", "firewalls", "encryption", "SIEM", "risk management", 
         "compliance", "security audits", "ethical hacking", "CISSP", "CISM", "CEH"
     ],
-
+# Preferred Skills for BlockChain Developer
     "Blockchain Developer": [
         "blockchain", "smart contracts", "cryptocurrency", "Ethereum", "Solidity", "dApps", "blockchain security", 
         "decentralized systems", "consensus algorithms", "Hyperledger", "R3 Corda", "web3.js", "truffle", 
         "ganache", "blockchain scalability", "tokenomics"
     ],
-
+# Preferred Skills for Site Reliability Engineer
     "Site Reliability Engineer (SRE)": ["site reliability engineering", "system administration", "cloud computing", "automation", "monitoring", "incident response", "capacity planning", "CI/CD", "Kubernetes", "Docker", "AWS", "GCP", "Azure", "Linux", "Python", "Bash", "Powershell", "Networking", "Load balancers", "DNS", "IAM", "CloudFormation", "ARM Templates"],
-
+# Preferred Skills for Systems Architect
     "Systems Architect": [
         "system architecture", "enterprise architecture", "cloud architecture", "network architecture",
         "security architecture", "solution architecture", "TOGAF", "AWS", "Azure", "GCP", "Docker", "Kubernetes",
         "Terraform", "Python", "Java", "C#", "SQL", "NoSQL", "RESTful APIs", "Microservices"
     ],
+
+    # Preferred Skills for Hardware Engineer
     "Hardware Engineer": [
         "computer hardware", "electronics", "digital circuits", "analog circuits", "microprocessors",
         "microcontrollers", "embedded systems", "FPGA", "ASIC", "PCB design", "signal processing", "C", "C++",
         "VHDL", "Verilog", "MATLAB"
     ],
+    # Preferred Skills for Computer 
     "Computer Vision Engineer": [
         "computer vision", "image processing", "video processing", "deep learning", "neural networks", "OpenCV",
         "TensorFlow", "PyTorch", "CUDA", "C++", "Python", "MATLAB"
