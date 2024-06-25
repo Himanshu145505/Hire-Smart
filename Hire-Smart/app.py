@@ -400,14 +400,16 @@ def rank_resumes(resume_folder, job_description):
 
     return ranked_resumes
 
+# This will find the closest match of user input job role name
 def find_closest_match(user_input):
     closest_matches = get_close_matches(user_input, job_roles.keys(), n=1, cutoff=0.6)
     return closest_matches[0] if closest_matches else None
 
+# Flask Application route default page
 @app.route('/')
 def index():
     return render_template('index.html')
-
+# Upload PDF file post method
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if 'resumes' not in request.files:
@@ -415,7 +417,7 @@ def upload_file():
 
     files = request.files.getlist('resumes')
     job_description = request.form.get('job_description', '')
-
+# if there is no upload folder it will create one 
     if not os.path.exists(app.config['UPLOAD_FOLDER']):
         os.makedirs(app.config['UPLOAD_FOLDER'])
 
@@ -425,6 +427,7 @@ def upload_file():
 
     return redirect(url_for('ranked_resumes', job_description=job_description))
 
+# It will reset the uploaded folder and also delte the data that was stored in Temp_Folders
 @app.route('/reset_temp_uploads', methods=['GET', 'POST'])
 def reset_temp_uploads():
     if request.method == 'POST':
@@ -436,11 +439,11 @@ def reset_temp_uploads():
                     os.remove(file_path)
             except Exception as e:
                 print(f"Error deleting file {file_path}: {e}")
-
+# Redirection to File Path
         return redirect(url_for('index'))  
     else:
         return redirect(url_for('index'))  
-
+# it will redirect to the 
 @app.route('/ranked_resumes', methods=['GET', 'POST'])
 def ranked_resumes():
     if request.method == 'POST':
