@@ -149,31 +149,31 @@ job_roles = {
         "data modeling", "backup and recovery", "performance monitoring", "data warehousing", 
         "ETL (Extract, Transform, Load)", "SQL Server", "Oracle", "MySQL", "PostgreSQL", "MongoDB"
     ],
-
+# Preferred Skills for Software Tester
     "Software Tester": [
         "test planning", "test case design", "test automation", "manual testing", "automated testing", 
         "regression testing", "performance testing", "load testing", "integration testing", "user acceptance testing", 
         "defect tracking", "agile testing", "ISTQB", "Selenium", "JUnit", "TestNG"
     ],
-
+# Preferred Skills for Systems Analyst
     "Systems Analyst": [
         "system analysis", "requirements gathering", "system design", "system modeling", "data analysis", 
         "business process modeling", "workflow analysis", "problem-solving", "communication skills", 
         "documentation", "agile", "UML", "SQL", "SDLC", "user stories", "user acceptance testing"
     ],
-
+# Preferred Skills for Game Developer
     "Game Developer": [
         "game development", "game design", "Unity", "Unreal Engine", "C#", "C++", "3D modeling", 
         "animation", "physics in games", "AI in games", "multiplayer games", "game optimization", 
         "mobile game development", "console game development", "game testing", "virtual reality (VR)"
     ],
-
+# Preferred Skills for Embedded Systems Engineer
     "Embedded Systems Engineer": [
         "embedded systems", "microcontrollers", "RTOS", "embedded C", "firmware development", "hardware design", 
         "sensors", "actuators", "communication protocols", "I2C", "SPI", "UART", "CAN bus", "debugging", 
         "real-time systems", "system integration"
     ],
-
+# Preferred Skills for Data Engineer
     "Data Engineer": [
         "big data", "data pipelines", "ETL (Extract, Transform, Load)", "data modeling", "data warehousing", 
         "data lakes", "SQL", "NoSQL", "Hadoop", "Spark", "Kafka", "stream processing", "Python", 
