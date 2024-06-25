@@ -443,7 +443,7 @@ def reset_temp_uploads():
         return redirect(url_for('index'))  
     else:
         return redirect(url_for('index'))  
-# it will redirect to the 
+# it will redirect to the Ranked Resumes page where the ranking will be displayed in the Tabular format with complete analysis of Skills Score, Experience Score and CGPA Score
 @app.route('/ranked_resumes', methods=['GET', 'POST'])
 def ranked_resumes():
     if request.method == 'POST':
