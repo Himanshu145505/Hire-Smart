@@ -284,6 +284,8 @@ job_roles = {
         "local SEO", "e-commerce SEO"
     ]
 }
+
+# It Will Extract the Text from PDF
 def extract_text_from_pdf(pdf_path):
     text = ""
     try:
@@ -295,7 +297,7 @@ def extract_text_from_pdf(pdf_path):
     except Exception as e:
         print(f"Error extracting text from PDF: {e}")
     return text
-
+# Extract CGPA SCORE
 def extract_cgpa(text):
     cgpa_pattern = re.compile(r"(?i)(cgpa|gpa)\s*[:\-]?\s*(\d+\.\d+)")
     match = cgpa_pattern.search(text)
@@ -303,6 +305,7 @@ def extract_cgpa(text):
         return float(match.group(2))
     return 0
 
+# Ranking
 def rank_resumes(resume_folder, job_description):
     resume_files = os.listdir(resume_folder)
     resumes = []
