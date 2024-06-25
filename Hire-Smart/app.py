@@ -245,28 +245,39 @@ job_roles = {
         "robotics", "robotic systems", "robotic programming", "ROS", "MATLAB", "Python", "C++", "control systems",
         "sensor fusion", "mechatronics", "AI", "computer vision"
     ],
+
+    # Preferred Skills for NLP Engineer
     "Natural Language Processing (NLP) Engineer": [
         "natural language processing", "NLP", "machine learning", "deep learning", "neural networks", "Python",
         "NLTK", "spaCy", "Stanford NLP", "Gensim", "word embeddings", "sentiment analysis", "text classification",
         "information retrieval"
     ],
+
+    # Preferred Skills for Big Data Engineer
     "Big Data Engineer": [
         "big data", "Hadoop", "Spark", "Kafka", "Hive", "Pig", "HBase", "MapReduce", "Scala", "Python", "Java", "SQL",
         "NoSQL", "data pipelines", "data warehousing", "ETL"
     ],
+
+    # Preferred Skills for Computer Graphics Engineer
     "Computer Graphics Engineer": [
         "computer graphics", "OpenGL", "DirectX", "GPU programming", "shaders", "3D rendering", "C++", "Python",
         "Unity", "Unreal Engine", "MATLAB"
     ],
+
+    # Preferred Skills for System Integration Engineer
     "Systems Integration Engineer": [
         "systems integration", "system architecture", "networking", "APIs", "integration testing", "CI/CD",
         "cloud computing", "docker", "kubernetes", "Python", "Java", "C#", "SQL", "NoSQL"
     ],
+
+    # Preferred Skills for Digital Marketing Specialist
     "Digital Marketing Specialist": [
         "digital marketing", "SEO", "SEM", "PPC", "email marketing", "social media marketing", "content marketing",
         "Google Analytics", "marketing automation", "conversion rate optimization", "web analytics", "A/B testing",
         "copywriting", "graphic design"
     ],
+    # Preferred Skills for SEO Specialist 
     "SEO Specialist": [
         "SEO", "search engine optimization", "keyword research", "on-page SEO", "off-page SEO", "link building",
         "SEO tools", "Google Analytics", "Google Search Console", "SEO audits", "content optimization", "technical SEO",
