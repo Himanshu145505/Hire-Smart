@@ -326,7 +326,7 @@ def rank_resumes(resume_folder, job_description):
                 else:
                     skills_count = 0
             exp_count = text.lower().count("experience") + text.lower().count("internship")
-
+# Resume Ranking Details Fetch
             resumes.append({
                 "file": resume_file,
                 "cgpa": cgpa,
@@ -377,6 +377,8 @@ def rank_resumes(resume_folder, job_description):
 
 
     # Rank each resume based on the three criteria
+
+    # Ranking is Based on some criteria like Skills Count (The Total no of Relative skills candidate have as per the given job role), CGPA SCORE, Experience Count
     for criteria in ['skills_count', 'cgpa', 'exp_count']:
         max_value = max(resume[criteria] for resume in resumes)
         for resume in resumes:
