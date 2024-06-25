@@ -212,28 +212,35 @@ job_roles = {
         "microcontrollers", "embedded systems", "FPGA", "ASIC", "PCB design", "signal processing", "C", "C++",
         "VHDL", "Verilog", "MATLAB"
     ],
-    # Preferred Skills for Computer 
+    # Preferred Skills for Computer Vision Engineer
     "Computer Vision Engineer": [
         "computer vision", "image processing", "video processing", "deep learning", "neural networks", "OpenCV",
         "TensorFlow", "PyTorch", "CUDA", "C++", "Python", "MATLAB"
     ],
+
+    # Preferred Skills for IT Operations Manager
     "IT Operations Manager": [
         "IT operations", "network administration", "system administration", "ITIL", "incident management",
         "problem management", "change management", "service desk management", "vendor management", "budget management",
         "team leadership", "communication skills"
     ],
+
+    # Preferred Skills for CRM Developer
     "CRM Developer": [
         "CRM", "customer relationship management", "Salesforce", "Microsoft Dynamics", "SAP CRM", "Oracle CRM",
         "CRM customization", "CRM integration", "CRM analytics", "JavaScript", "Apex", "SQL", "web services"
     ],
+    # Preferred Skills for AR Developer
     "Augmented Reality (AR) Developer": [
         "augmented reality", "ARKit", "ARCore", "Unity", "3D modeling", "C#", "C++", "JavaScript", "UI/UX design",
         "computer vision", "mobile development"
     ],
+    # Preferred Skills for VR Developer
     "Virtual Reality (VR) Developer": [
         "virtual reality", "Unity", "Unreal Engine", "C#", "C++", "3D modeling", "UI/UX design", "game development",
         "immersive experiences", "interactive simulations"
     ],
+    # Preferred Skills for Robotics Engineer
     "Robotics Engineer": [
         "robotics", "robotic systems", "robotic programming", "ROS", "MATLAB", "Python", "C++", "control systems",
         "sensor fusion", "mechatronics", "AI", "computer vision"
