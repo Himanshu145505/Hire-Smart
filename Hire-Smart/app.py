@@ -453,8 +453,7 @@ def ranked_resumes():
     else:
         return render_template('ranked_resumes.html', resumes=[], job_description='', enumerate=enumerate)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
 
 
     
