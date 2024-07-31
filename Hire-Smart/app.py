@@ -10,7 +10,9 @@ from difflib import get_close_matches
 
 # This will store the uploaded files in a temporary folder name TEMP_FOLDER and Ranks the resume there
 app = Flask(__name__)
+# Upload Folder
 app.config['UPLOAD_FOLDER'] = 'uploads'
+# Temp Resume Store
 app.config['TEMP_FOLDER'] = os.path.join(os.path.dirname(__file__), 'temp_uploads')
 
 job_roles = {
