@@ -293,11 +293,13 @@ def extract_text_from_pdf(pdf_path):
     try:
         # pdf path
         pdf_document = fitz.open(pdf_path)
+        # pdf document
         for page_num in range(len(pdf_document)):
             page = pdf_document.load_page(page_num)
             text += page.get_text()
         pdf_document.close()
     except Exception as e:
+        # Text Extraction from PDF
         print(f"Error extracting text from PDF: {e}")
     return text
 # Extract CGPA SCORE
