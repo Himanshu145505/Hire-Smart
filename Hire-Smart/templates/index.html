@@ -93,8 +93,10 @@
     <script>
         // Form Validation for Selecting atleast 1 Pdf File
         function validateForm() {
+            // form validation
             var files = document.getElementById("resumes").files;
             if (files.length === 0) {
+                alert msg
                 alert("Please select at least one file.");
                 return false;
             }
