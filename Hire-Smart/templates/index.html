@@ -96,7 +96,7 @@
             // form validation
             var files = document.getElementById("resumes").files;
             if (files.length === 0) {
-                alert msg
+                // alert message
                 alert("Please select at least one file.");
                 return false;
             }
@@ -104,8 +104,10 @@
         }
 // Selecting and Selected File Count Function 
         function updateFileLabel() {
+            
             var input = document.getElementById("resumes");
             var label = document.querySelector(".file-label");
+            // Count of No of Files
             var fileCount = input.files.length;
 
             if (fileCount === 0) {
