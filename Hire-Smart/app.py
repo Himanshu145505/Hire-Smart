@@ -5,7 +5,7 @@ import fitz  # PyMuPDF
 
 # Flask Application Import
 from flask import Flask, request, render_template, redirect, url_for
-# Import for Getting Closer Matches
+# Import for Getting Closer Matches from the resume text
 from difflib import get_close_matches
 
 
