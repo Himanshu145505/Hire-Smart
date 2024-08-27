@@ -305,6 +305,7 @@ def extract_text_from_pdf(pdf_path):
     return text
 # Extract CGPA SCORE
 def extract_cgpa(text):
+    # CGPA Pattern
     cgpa_pattern = re.compile(r"(?i)(cgpa|gpa)\s*[:\-]?\s*(\d+\.\d+)")
     match = cgpa_pattern.search(text)
     if match:
